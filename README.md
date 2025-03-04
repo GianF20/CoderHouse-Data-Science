@@ -1,19 +1,19 @@
-**Curso: Data Science**
+***Curso: Data Science***
 
-**Comisión: 61750**
+***Comisión: 61750***
 
-**Proyecto: Rotacion de personal - People analytics**
+***Proyecto: Rotacion de personal - People analytics***
 
-**Alumno: Gian Franco Medina Robert**
+***Alumno: Gian Franco Medina Robert***
 
 
-**Introducción**
+***Introducción***
 
 Este análisis se enfoca en predecir la variable 'Attrition', determinando si un empleado abandonará la empresa o no. Se utilizarán técnicas de clasificación junto con análisis exploratorio de datos para comprender los factores que influyen en la rotación. Visualizaciones y estadísticas descriptivas ayudarán a responder la pregunta problema, formulando hipótesis clave sobre la retención de empleados.
 
 Este trabajo está dirigido a profesionales y responsables en el área de Recursos Humanos, gerentes de talento humano, consultores organizacionales y académicos interesados en la gestión del personal. Los hallazgos y metodologías presentados aquí proporcionan herramientas y conocimientos prácticos para identificar las causas de la rotación de personal y desarrollar estrategias efectivas para mejorar la retención de empleados en las organizaciones.
 
-**Preguntas problemas**
+***Preguntas problemas***
 
 ¿Cuáles son las principales características asociadas con la rotación de empleados?
 
@@ -21,7 +21,7 @@ Este trabajo está dirigido a profesionales y responsables en el área de Recurs
 
 ¿Los empleados con mayor antigüedad tienen menor probabilidad de abandonar la empresa?
 
-**Hipótesis**
+***Hipótesis***
 
 Los empleados con nivel de puesto más altos tienen una mayor tasa de rotación.
 
@@ -32,7 +32,9 @@ Factores salariales y de promoción influyen significativamente en la decisión 
 Visualizaciones
 ***************
 
-Modelo Gradient Boosting: Accuracy de 85.03% es bastante bueno para un modelo de clasificación, indicando que el modelo tiene un buen desempeño en cuanto a predicción correcta de rotación. 
+***Modelo Gradient Boosting:***
+
+Accuracy de 85.03% es bastante bueno para un modelo de clasificación, indicando que el modelo tiene un buen desempeño en cuanto a predicción correcta de rotación. 
 Parece ser el modelo adecuado para predicción de rotación de empleados, ya que ofrece un buen rendimiento de clasificación. Sin embargo, sería útil considerar otras métricas de clasificación como precisión, recall o F1-score para tener una evaluación más completa.
 Modelo Linear Regression: El MSE es bajo, lo que indica que las predicciones del modelo no se desvían mucho de los valores reales. Sin embargo, el R² es bajo, lo que sugiere que el modelo no está capturando bien la variabilidad de los datos y que hay mucho margen para mejorar en la predicción. 
 Este modelo no parece ser el modelo adecuado para este tipo de problema, especialmente dado el bajo R². Elegí entrenar este modelo para compararlo con el modelo Gradient Boosting, este anterior es el mejor para este trabajo, más allá de que existen otros modelos que pueden ir muy bien en este proyecto.
