@@ -1,10 +1,10 @@
-Curso: Data Science
-Comisión: 61750
-Proyecto Parte II
-Alumno: Gian Franco Medina Robert
+**Curso: Data Science**
+**Comisión: 61750**
+**Proyecto: Rotacion de personal - People analytics**
+**Alumno: Gian Franco Medina Robert**
 
 
-Introducción
+**Introducción**
 Este análisis se enfoca en predecir la variable 'Attrition', determinando si un empleado abandonará la empresa o no. Se utilizarán técnicas de clasificación junto con análisis exploratorio de datos para comprender los factores que influyen en la rotación. Visualizaciones y estadísticas descriptivas ayudarán a responder la pregunta problema, formulando hipótesis clave sobre la retención de empleados.
 
 Este trabajo está dirigido a profesionales y responsables en el área de Recursos Humanos, gerentes de talento humano, consultores organizacionales y académicos interesados en la gestión del personal. Los hallazgos y metodologías presentados aquí proporcionan herramientas y conocimientos prácticos para identificar las causas de la rotación de personal y desarrollar estrategias efectivas para mejorar la retención de empleados en las organizaciones.
