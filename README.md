@@ -6,6 +6,7 @@
 
 ***Alumno: Gian Franco Medina Robert***
 
+***************
 
 ***Introducción***
 
@@ -45,7 +46,7 @@ Este modelo no parece ser el modelo adecuado para este tipo de problema, especia
 
 ***************
 
-***Insights***
+##Insights
 
 En el marco del análisis realizado para predecir la variable 'Attrition' y comprender los factores que influyen en la rotación de empleados, se han obtenido los siguientes hallazgos clave:
 Principales Características Asociadas con la Rotación de Empleados:
