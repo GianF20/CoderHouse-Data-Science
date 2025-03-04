@@ -1,0 +1,38 @@
+# Gráfico de la variable Attrition (Taza de rotación)
+
+plt.figure(figsize=(8,8))
+attrition_count = df['Attrition'].value_counts()
+attrition_count.plot.pie(autopct='%1.1f%%', colors=['orange', 'yellow'], labels=['No', 'Yes'], startangle=90)
+plt.title('Distribución de la variable Attrition')
+plt.ylabel('')
+plt.show()
+
+# Análisis de relación entre antigüedad y rotación
+df['Attrition'] = pd.to_numeric(df['Attrition'], errors='coerce')
+rotacion_por_antiguedad = df.groupby('YearsAtCompany')['Attrition'].mean() * 100
+plt.figure(figsize=(10, 6))
+rotacion_por_antiguedad.plot(kind='bar', color='orange', width=0.8)
+plt.title('Tasa de Rotación vs. Antigüedad en la Empresa', fontsize=16)
+plt.xlabel('Años en la Empresa', fontsize=14)
+plt.ylabel('Tasa de Rotación (%)', fontsize=14)
+plt.xticks(rotation=45, ha='right')
+plt.grid(axis='y', linestyle='--', alpha=0.7)
+plt.tight_layout()
+plt.show()
+
+# Relación entre Salario Mensual y Rotación (Boxplot)
+plt.figure(figsize=(10,6))
+sns.boxplot(x='Attrition', y='MonthlyIncome', data=df)
+plt.title('Distribución de Salario Mensual según Rotación')
+plt.xlabel('Rotación (0 = No, 1 = Sí)')
+plt.ylabel('Salario Mensual')
+plt.grid(True)
+plt.show()
+
+# Relación entre Nivel de Puesto y Rotación (Countplot)
+plt.figure(figsize=(10,6))
+sns.countplot(x='JobLevel', hue='Attrition', data=df, palette=['orange', 'yellow'])
+plt.title('Relación entre Nivel de Puesto y Rotación')
+plt.xlabel('Nivel de Puesto')
+plt.ylabel('Cantidad de Empleados')
+plt.show()
