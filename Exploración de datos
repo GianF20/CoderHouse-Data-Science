@@ -1,0 +1,29 @@
+# Mostrar información del DataFrame
+df.info()
+
+# Estadísticas descriptivas
+print(df.describe())
+
+# Verificar valores nulos
+print(df.isnull().sum())
+
+print(f"Cantidad de registros: {df.shape[0]}")
+
+# Muestra las primeras filas
+df.head()
+
+***Procesamiento de datos***
+
+# Convertir la variable objetivo a numérica
+df['Attrition'] = df['Attrition'].map({'Yes': 1, 'No': 0})
+
+# Identificar columnas categóricas y codificarlas
+categorical_cols = df.select_dtypes(include=['object']).columns
+df = pd.get_dummies(df, columns=categorical_cols, drop_first=True)
+
+# Verificar y tratar los valores nulos
+df.isnull().sum()
+
+# Normalización de datos
+scaler = StandardScaler()
+df_scaled = scaler.fit_transform(df)
