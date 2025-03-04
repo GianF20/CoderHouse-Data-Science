@@ -8,16 +8,25 @@
 
 
 **Introducción**
+
 Este análisis se enfoca en predecir la variable 'Attrition', determinando si un empleado abandonará la empresa o no. Se utilizarán técnicas de clasificación junto con análisis exploratorio de datos para comprender los factores que influyen en la rotación. Visualizaciones y estadísticas descriptivas ayudarán a responder la pregunta problema, formulando hipótesis clave sobre la retención de empleados.
 
 Este trabajo está dirigido a profesionales y responsables en el área de Recursos Humanos, gerentes de talento humano, consultores organizacionales y académicos interesados en la gestión del personal. Los hallazgos y metodologías presentados aquí proporcionan herramientas y conocimientos prácticos para identificar las causas de la rotación de personal y desarrollar estrategias efectivas para mejorar la retención de empleados en las organizaciones.
-Preguntas problemas
+
+**Preguntas problemas**
+
 ¿Cuáles son las principales características asociadas con la rotación de empleados?
+
 ¿Existe una relación entre el nivel del puesto y la rotación?
+
 ¿Los empleados con mayor antigüedad tienen menor probabilidad de abandonar la empresa?
-Hipótesis
+
+**Hipótesis**
+
 Los empleados con nivel de puesto más altos tienen una mayor tasa de rotación.
+
 Los empleados con mayor antigüedad tienen menor probabilidad de abandonar la empresa.
+
 Factores salariales y de promoción influyen significativamente en la decisión de rotación.
 
 Visualizaciones
