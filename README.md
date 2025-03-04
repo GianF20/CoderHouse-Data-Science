@@ -1,6 +1,9 @@
 **Curso: Data Science**
+
 **Comisión: 61750**
+
 **Proyecto: Rotacion de personal - People analytics**
+
 **Alumno: Gian Franco Medina Robert**
 
 
