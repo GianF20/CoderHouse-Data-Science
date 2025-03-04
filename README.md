@@ -30,6 +30,8 @@ Los empleados con mayor antigüedad tienen menor probabilidad de abandonar la em
 
 Factores salariales y de promoción influyen significativamente en la decisión de rotación.
 
+***************
+
 Visualizaciones
 
 ***************
