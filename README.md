@@ -32,10 +32,6 @@ Factores salariales y de promoción influyen significativamente en la decisión 
 
 ***************
 
-Visualizaciones
-
-***************
-
 ***Modelo Gradient Boosting:***
 
 Accuracy de 85.03% es bastante bueno para un modelo de clasificación, indicando que el modelo tiene un buen desempeño en cuanto a predicción correcta de rotación. 
