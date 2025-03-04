@@ -1,5 +1,4 @@
-# Gráfico de la variable Attrition (Taza de rotación)
-
+***# Gráfico de la variable Attrition (Taza de rotación)***
 plt.figure(figsize=(8,8))
 attrition_count = df['Attrition'].value_counts()
 attrition_count.plot.pie(autopct='%1.1f%%', colors=['orange', 'yellow'], labels=['No', 'Yes'], startangle=90)
@@ -7,7 +6,7 @@ plt.title('Distribución de la variable Attrition')
 plt.ylabel('')
 plt.show()
 
-# Análisis de relación entre antigüedad y rotación
+***# Análisis de relación entre antigüedad y rotación***
 df['Attrition'] = pd.to_numeric(df['Attrition'], errors='coerce')
 rotacion_por_antiguedad = df.groupby('YearsAtCompany')['Attrition'].mean() * 100
 plt.figure(figsize=(10, 6))
@@ -20,7 +19,7 @@ plt.grid(axis='y', linestyle='--', alpha=0.7)
 plt.tight_layout()
 plt.show()
 
-# Relación entre Salario Mensual y Rotación (Boxplot)
+***# Relación entre Salario Mensual y Rotación (Boxplot)***
 plt.figure(figsize=(10,6))
 sns.boxplot(x='Attrition', y='MonthlyIncome', data=df)
 plt.title('Distribución de Salario Mensual según Rotación')
@@ -29,7 +28,7 @@ plt.ylabel('Salario Mensual')
 plt.grid(True)
 plt.show()
 
-# Relación entre Nivel de Puesto y Rotación (Countplot)
+***# Relación entre Nivel de Puesto y Rotación (Countplot)***
 plt.figure(figsize=(10,6))
 sns.countplot(x='JobLevel', hue='Attrition', data=df, palette=['orange', 'yellow'])
 plt.title('Relación entre Nivel de Puesto y Rotación')
