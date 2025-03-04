@@ -46,7 +46,7 @@ Este modelo no parece ser el modelo adecuado para este tipo de problema, especia
 
 ***************
 
-*****Insights*****
+****Insights****
 
 En el marco del análisis realizado para predecir la variable 'Attrition' y comprender los factores que influyen en la rotación de empleados, se han obtenido los siguientes hallazgos clave:
 Principales Características Asociadas con la Rotación de Empleados:
@@ -75,6 +75,8 @@ Principales Características Asociadas con la Rotación de Empleados:
 ***Remuneración Competitiva:*** Se confirma que paquetes salariales poco competitivos están asociados con una mayor intención de abandono por parte de los empleados.
 
 ***Oportunidades de Crecimiento:*** La falta de perspectivas claras de promoción y desarrollo profesional dentro de la empresa se correlaciona positivamente con la rotación, indicando que los empleados buscan organizaciones que ofrezcan un camino de crecimiento definido.
+
+***************
 
 ***Conclusiones***
 Estos insights proporcionan una comprensión detallada de los factores que influyen en la rotación de personal dentro de la empresa. Basándose en estos hallazgos, se pueden diseñar estrategias enfocadas en mejorar la satisfacción laboral, optimizar el clima organizacional, revisar las políticas de recursos humanos y ofrecer planes de carrera atractivos para reducir la rotación y fomentar la retención del talento.
